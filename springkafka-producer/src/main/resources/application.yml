@@ -1,0 +1,11 @@
+spring:
+  kafka:
+    topics:
+      -
+        name: kafka-topic
+        num-partitions: 3
+      -
+        name: second-kafka-topic
+        num-partitions: 2
+        
+    bootstrap-servers: kafka:9092
